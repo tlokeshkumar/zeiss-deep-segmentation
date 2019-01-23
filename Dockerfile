@@ -85,4 +85,8 @@ RUN python3 -c "import tensorflow; print(tensorflow.__version__)" \
  && dpkg-query -l > /dpkg-query-l.txt \
  && pip3 freeze > /pip3-freeze.txt
 
+RUN git clone https://github.com/tlokeshkumar/zeiss-deep-segmentation.git
+
+ENTRYPOINT ["/usr/bin/python3", "zeiss-deep-segmentation/predict.py"]
+
 WORKDIR /srv/
