@@ -5,6 +5,9 @@
 ## About this project
 This is a Keras based implementation of a deep UNet that performs satellite image segmentation.
 
+## Link for Weights
+[Weights](https://drive.google.com/open?id=1eC8RvaJvGhP5mZZm6bxDnJR5_RORE1a9)
+
 ## Dataset
 * The dataset consists of 8-band commercial grade satellite imagery taken from SpaceNet dataset.
 * Train collection contains few tiff files for each of the 24 locations.
