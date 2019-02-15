@@ -1,5 +1,5 @@
-# Deep UNet for Mitochondira Segmentation
-
+# Deep UNet for Mitochondira Segmentation (Zeiss India Contest)
+> Members: Rohith Srinivaas M, Rishhanth Maanav V, Lokesh Kumar T (IIT Madras)
 ## Mitochondria - Power Factory of the Cell
 
 ![mitoch](https://news.cals.wisc.edu/wp-content/uploads/sites/2/2016/12/mitochondria-photo-copy-e1482864857509-1280x752.jpg)
@@ -40,3 +40,22 @@
 * The training iteration was continued for 150 epoch
 * Avg.Dice coefficient :  **0.973**.
 
+## Apeer Workflow
+
+![apeer](images/image3.png)
+* APEER platform to sum up was helpful in terms of the following usages,
+    * Version-Control
+    * Modular development
+    * Easy Integration using Python
+
+## Our Apeer Workflow
+
+![our_workflow](images/image4.png)
+
+## Results
+
+### Input Image
+![input](images/i.png)
+
+### Output Image
+![ouptu](images/o.jpg)
